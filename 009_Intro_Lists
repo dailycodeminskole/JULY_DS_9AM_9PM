@@ -1,0 +1,60 @@
+#################################################
+#  12.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Lists in Python
+#################################################
+# Intro to list
+# list is a collection of objects/items
+# Derived data type
+# heterogenous = mixed
+
+s = "Python"
+print(type(s))
+
+
+
+
+# direct way by writing the items inside a square bracket
+
+
+list_fruits = ['apple','banana', 'guava', 'kiwi']
+print(type(list_fruits)) #'list'
+
+list_even = [2,4,6,8,10] 
+print(list_even)
+
+
+list_students =  ["Rakesh" ,48 , "Sameer" , 54 , "Pratik" ,55]
+print(list_students)
+print(len(list_students))
+
+list_alpa = ['b','c','d','f',['a','e','i','o','u']]
+print(list_alpa)
+print(type(list_alpa)) #list
+print(len(list_alpa))
+
+
+x = []
+print(type(x)) #list
+print(len(x))
+
+y = [""]
+print(type(y)) #list
+print(len(y))
+
+z = [" "]
+print(type(z)) #list
+print(len(z))
+
+
+
+# creating a list using constructor/type casting
+
+
+s = "MINSKOLE"
+# ["M" ,"I", "N"]
+print(list(s))
+
+vow = "aeiou"
+print(list(vow))
