@@ -1,0 +1,38 @@
+#################################################
+#  03.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+#  👉 Intro to  Python
+#################################################
+# print is a function
+#  inside the () is called the Argument
+#  we change the Argument to get different o/p
+
+#  print is used to print the contents/argument as it is  , if it is inside 
+#  '' or " " or ''' '''
+
+print('Hello World')
+print("Good Morning")
+print("I am Learining Python V 3.10")
+print("10+10")
+print("100+100")
+
+# As a calculator
+print(10+10)
+print(10-10)
+print(10*10)
+print(10/10)
+
+# HW
+''' 
+1. This is what we have 
+2. We will attend the class daily
+3. 50+50 witb quotes
+4. 50+50 without quotes
+5. It's a nice day
+6. Gandhiji said , "you must speak truth" !
+
+'''
+
+
+print("This is what we have ")
