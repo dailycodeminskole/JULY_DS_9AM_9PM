@@ -1,0 +1,128 @@
+#################################################
+#  10.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings in Python
+# 👉 Methods in Strings
+#################################################
+
+# for editing 
+
+# capitalize()	Converts the first character to upper case
+
+text = "hello word"
+print(text.capitalize())
+
+# casefold()		Converts string into lower case 
+#  it is   more aggressive 
+text = "HELLO wOrld"
+print(text.casefold())
+
+
+text2 = "HÉLLÔ WÖRLD"
+print(text2.casefold())
+print(text2.lower())
+
+# lower()			  Converts a string into lower case
+text = "HELLO wOrld"
+print(text.lower())
+#  use casefold( for making the string lower cases
+
+
+# swapcase()		Swaps cases, lower case becomes upper case and vice versa
+
+text  = "Hello World"
+print(text.swapcase())
+
+# title()			Converts the first character of each word to upper case
+
+text = "hello WORLd"
+print(text.title())
+
+# upper()			Converts a string into upper case
+
+text = "hello World"
+print(text.upper())
+
+# boolean methods 
+# True or False
+
+# endswith()		Returns true if the string ends with the specified value
+
+s = "Today is Monday"
+
+print(s.endswith("monday"))
+print(s.endswith("Monday"))
+
+x = s.casefold()
+print(x)
+print(x.endswith("monday"))
+
+print(s.casefold().endswith("monday")) #we can use one method after another
+
+# isalnum()		Returns True if all characters in the string are alphanumeric
+
+p = "abc@123"
+print(p.isalnum())
+
+q = "abc123"
+print(q.isalnum())
+
+# isalpha()		Returns True if all characters in the string are in the alphabet
+
+ans = "pass123"
+print(ans.isalpha())
+
+ans = "Password"
+print(ans.isalpha())
+
+# find()			Searches the string for a specified value and returns the position of where it was found
+text = "OpenAI is an artificial intelligence research organization."
+
+
+print(text.find("OpenAI"))
+print(text.find("google")) #-1 if the string is absent
+print(text.find("artificial"))
+
+# index()			Searches the string for a specified value and returns the position of where it was found
+print(text.index("OpenAI"))
+print(text.index("artificial"))
+# print(text.index("google")) #ValueError
+
+# replace()		Returns a string where a specified value is replaced with a specified value
+s = "Today is weekend"
+print(s.replace("weekend","weekday"))
+print(s)
+
+
+# strip()			Returns a trimmed version of the string
+name = "           Prakash"
+print(name.strip())
+
+
+# split()			Splits the string at the specified separator, and returns a list
+
+s = "Today is weekend"
+print(s.split(" "))
+
+email = "minskole@gmail.com"
+print(email.split("@"))
+
+print(type(s))
+print(type(email.split("@"))) #'list'
+
+
+# Self Practice at Home
+
+# isascii()		Returns True if all characters in the string are ascii characters
+
+# isdecimal()		Returns True if all characters in the string are decimals
+# isdigit()		Returns True if all characters in the string are digits
+# isnumeric()
+# islower()		Returns True if all characters in the string are lower case
+# isnumeric()		Returns True if all characters in the string are numeric
+# isspace()		Returns True if all characters in the string are whitespaces
+# istitle()		Returns True if the string follows the rules of a title
+# isupper()		Returns True if all characters in the string are upper case
+# startswith()	Returns true if the string starts with the specified value
+
