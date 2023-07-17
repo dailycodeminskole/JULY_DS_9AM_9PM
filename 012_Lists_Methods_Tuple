@@ -1,0 +1,82 @@
+#################################################
+#  17.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Lists Methods
+#################################################
+
+
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+
+
+# count
+# freq of the element
+
+print(list_fruits.count('apple'))
+
+
+# index
+# position of the element's 1st occurance 
+
+print(list_fruits.index('apple'))
+
+
+# pop
+# removes the element at the given index
+# in place changes will occur + o/p will also be there
+
+
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+
+print(list_fruits.pop()) #default last element will be removed
+print(list_fruits)
+print(list_fruits.pop()) #default last element will be removed
+print(list_fruits.pop(2)) #default last element will be removed
+
+print(list_fruits)
+
+# remove
+# removes the given element 
+
+
+print(list_fruits.remove("chiku"))
+print(list_fruits)
+
+
+# clear
+# all clear
+
+print(list_fruits.clear())
+print(list_fruits)
+
+
+# del
+# removes from the memory
+
+del list_fruits
+# print(list_fruits)
+
+
+
+# Tuples
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+print(type(list_fruits))
+
+
+list_fruits_tup = ('apple','mango','guava','chiku','apple','banana')
+print(type(list_fruits))
+
+
+
+print(list_fruits_tup)
+
+# count
+# number of repetetion
+print(list_fruits_tup.count('guava'))
+
+# index
+print(list_fruits_tup.index('guava'))
+
+# append ??
+
+# print(list_fruits_tup.append('kiwi')) error
