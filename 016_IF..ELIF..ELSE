@@ -1,0 +1,118 @@
+#################################################
+#  21.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 if..else
+# 👉 if..elif..else
+#################################################
+
+# HW
+
+# if :
+#   print("Good")
+# else:
+#   print("Bad")
+  
+print(bool([]))
+
+if []: #False
+  print("Good")
+else:
+  print("Bad")
+  
+  
+  
+# Write a program that takes a user input of a character and 
+# checks if it's a vowel or consonant.
+
+
+alpha = "e"
+# print(alpha, " : is a  vowel")
+
+list_vow = ['A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u']
+# print(list("AEIOUaeiou"))
+if alpha in list_vow:
+  print(alpha, " : is a  vowel")
+else:
+  print(alpha, " : is a  consonant")
+
+
+
+# Write a program that takes a user input of a string and 
+# checks if it's a palindrome.  
+
+name =  "MOHAN"
+print(name)
+print(name[::-1])
+
+
+s = "NITIN"
+print(s)
+print(s[::-1])
+
+if s == s[::-1]:
+  print("palindrome")
+else:
+  print("No palindrome")
+
+
+
+
+# s = 121 #subscriptable
+# print(s)
+# print(s[::-1])
+
+# if s == s[::-1]:
+#   print("palindrome")
+# else:
+#   print("No palindrome")
+  
+
+
+# if condition1:
+#     # Code block executed if condition1 is True
+# elif condition2:
+#     # Code block executed if condition2 is True
+# else:
+#     # Code block executed if none of the above conditions are True
+    
+# Checking the grade of a student based on their score
+
+
+
+
+# Write a program that takes a user input of a number and 
+# checks if it's positive, negative or zero.
+
+
+num = -0.00
+
+
+if num > 0:
+  print("NUmber is Positive")
+elif num < 0:
+  print("NUmber is negative")
+else:
+  print("You have enterd ZERO")
+
+
+
+# Write a program that takes a user input of a string and checks 
+# if it's all uppercase or lowercase or mix case.
+
+name =  "umakant"
+# name =  "123"
+
+# print(name.isupper())
+
+if name.isupper():
+  print("Name is in ALL Caps")
+elif name.islower():
+  print("Name is in ALL lower")
+else:
+  print("Mixed character")
+
+
+# HW 
+# Write a Python program that takes the age of a person as input and 
+# categorizes them as a child (0-12), teenager (13-19), adult (20-59), or senior (60 and above).
