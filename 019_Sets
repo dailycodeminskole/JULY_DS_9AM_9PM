@@ -1,0 +1,105 @@
+#################################################
+#  26.07.2023 8.30AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 range() in for loop
+# 👉 set
+#################################################
+
+
+
+#           0   1 2  3 4
+list_num = [11,22,33,44,55]
+print(list_num[4])
+print(list_num[2])
+
+
+# Syntax
+# for i in iterable:
+#   code
+
+for vikas in list_num:
+  print(vikas)
+  
+# using range() in for loop
+
+for i in range(0,11):
+  print(i)
+  
+  
+# mul of 5  
+
+for i in range(5,51,5):
+  print(i)
+  
+  
+for i in range(7,71,7):
+  print(i)  
+  
+# Set in Python
+# set is an unorderd collection *** of unique object ****
+# indexing cant be used to acce the elements inside a set
+# duplicates are not allowed
+# unhashable i.e can be changed
+# empty set is a dictionary
+
+s1 = {11,22,33,55}
+print(s1)
+print(type(s1))
+
+
+# print(s1[1]) #not subscriptable
+
+s2 = {11,11,22,22,33,33,44,44}
+print(s2)
+print(type(s2))
+
+s3 = {10,20,'ramesh','suresh'}
+print(s3)
+
+
+# s3 = {10,20,[2,4,6,8],'ramesh'}
+# print(s3) #unhashable type
+
+
+s3 = {10,20,(2,4,6,8),'ramesh'}
+print(s3) #unhashable type
+
+# s4 = {10,20,30,{10,20,30}}
+# print(s4) #unhashable 
+
+s5 = {12}
+print(type(s5))
+
+s5 = {}
+print(type(s5))  #dict'
+
+
+a1 = set() #to make an empty set using constructor
+print(a1)
+print(type(a1))
+
+
+tup1 = (11,22,33)
+print(tup1)
+print(type(tup1))
+
+
+tup1 = ()
+print(tup1)
+print(type(tup1))
+
+tup1 = (11)
+print(tup1)
+print(type(tup1))
+
+list_num =  []
+print(list_num)
+print(type(list_num))
+
+
+s3 = {10,20,'ramesh','suresh'}
+print(s3)
+
+for i in s3:
+  print(i)
